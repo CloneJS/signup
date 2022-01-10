@@ -4,9 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: content/contact/_index.md
-  label: Contact
+- type: directory
+  path: Visit
+  label: Visit
+  create: none
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
